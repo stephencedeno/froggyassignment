@@ -1,0 +1,63 @@
+html,body{
+    background-color: #f8b195;
+    height: 100%;
+}
+
+h1 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0;padding: 0;
+}
+
+h1 p{
+position: absolute;
+top: 0px;
+padding-left: 5px;
+
+}
+
+h1 a {
+    right: 100px;
+    
+    padding-left: 5px;
+    font-size: 15px;
+    margin-left: 15px ;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.box {
+    width: auto;
+    height: 30px;
+    
+}
+.pinkbox {
+    background: #f67280;
+    margin: 0;padding: 0;
+    
+}
+#blueContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .blue {
+    padding: 20px;
+    background-color: #355c7d;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    border: solid #6c5b7b;
+    
+  }
+  input[type=submit]{
+    width: 200px;
+    color: #6c5b7b;
+  }
+  .blue p { width: 250px;
+  }
